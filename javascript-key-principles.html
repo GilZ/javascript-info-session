@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Javascript key principles</title>
+</head>
+<body>
+
+<script lang="Javascript" id="example">
+    // Load and go delivery (code is shipped as plain text)
+
+    // Loose typing (you can't declare the type of your variable)
+    var myInt = 8;
+    myInt = "Moshe";
+    console.log(myInt);
+    console.log(8 == "8");
+
+
+    // Objects as general container
+    var obj = {
+        a:1,
+        b:2,
+        foo: function(x) {return x;}
+    };
+    console.log(obj.a == obj['a']);
+
+
+    // Prototypal inheritance
+    var newObj = new Object(obj);
+    newObj['foo'](8);
+
+
+    // Lambda
+    function fixpoint(func, x) {
+        return x === func(x) ? x : fixpoint(func, func(x));
+    }
+    console.log(fixpoint(Math.cos, 0));
+    fixpoint(function(x) {return Math.min(2*x, 1023)}, 2);
+
+
+    //Linkage through global variables
+    function foo() {
+        myLocalVar=8;
+    }
+    foo();
+    console.log(myLocalVar);
+</script>
+
+<script lang="javascript">
+    var elem = document.createElement('div');
+    elem.innerText = document.getElementById("example").outerHTML;
+    document.body.appendChild(elem);
+</script>
+</body>
+</html>
