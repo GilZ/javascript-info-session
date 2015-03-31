@@ -24,7 +24,8 @@ What aren't we going to talk about?
 * Why Javascript RULZ!!!11!!
 * The politics and wars in the Javascript/Node.js/io.js world
 * ECMAScript 6
-* *Javascript the good parts* (or: why you shouldn't listen to me, and watch [Crockford's lectures](youtu.be/v2ifWcnQs6M) instead)
+* Why you shouldn't listen to me, and watch [Crockford's lectures](youtu.be/v2ifWcnQs6M) instead
+* Ugly UI & bad examples
 
 
 
@@ -34,7 +35,7 @@ ______________________________________________________________________
 Javascript history
 ==================
 
-1. 1991-1995 - Java by Sun microsystems (including Java applets in the browser)
+1. 1991-1995 - Java by Sun Microsystems (including Java applets in the browser)
 2. 1995 - LiveScript / Javascript by Netscape
 3. 1996 - JScript by Microsoft
 4. 1998 - ECMAScript
@@ -58,3 +59,25 @@ ______________________________________________________________________
 Event-driven architecture
 =========================
 
+______________________________________________________________________
+
+
+Node.js
+=======
+
+______________________________________________________________________
+
+
+HTTP server
+===========
+
+______________________________________________________________________
+
+
+Web sockets & socket.io
+=======================
+
+______________________________________________________________________
+
+Questions
+=========
