@@ -37,6 +37,8 @@
     console.log(fixpoint(Math.cos, 0));
     fixpoint(function(x) {return Math.min(2*x, 1023)}, 2);
 
+    console.log([1,2,3].map(function(x) {return x*2}).reduce(function(memo, num) { return memo + num }));
+
 
     //Linkage through global variables (no built-in namespaces)
     function foo() {

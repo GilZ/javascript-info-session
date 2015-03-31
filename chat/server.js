@@ -24,6 +24,6 @@ io.on('connection', function(socket){
     });
 });
 
-http.listen(8888, function(){
-    console.log('listening on port 8888');
+http.listen(8002, function(){
+    console.log('listening on port 8002');
 });
