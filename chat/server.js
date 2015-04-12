@@ -14,7 +14,7 @@ io.on('connection', function(socket){
             users[socket.id] = msg;
             io.emit('admin', msg + ' has joined the chat');
         } else {
-            io.emit('chat', msg);
+            io.emit('chat', users[socket.id] + ': ' + msg);
         }
     });
 

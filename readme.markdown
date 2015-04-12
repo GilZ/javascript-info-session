@@ -41,6 +41,9 @@ Javascript history
 2. 1995 - LiveScript / Javascript by Netscape
 3. 1996 - JScript by Microsoft
 4. 1998 - ECMAScript
+5. 1999-2000 - AJAX
+6. 2009 - ECMAScript 5
+7. June 2015 (?) - ECMAScript 6
 
 
 
@@ -83,7 +86,7 @@ ______________________________________________________________________
 HTTP server
 -----------
 
-1. Demo: [http://placeholder:8000](http://placeholder:8000)
+1. Demo: [http://10.0.0.15:8000](http://10.0.0.15:8000)
 
 
 ______________________________________________________________________
@@ -93,7 +96,7 @@ ______________________________________________________________________
 Node cluster
 ------------
 
-1. Demo: [http://placeholder:8001](http://placeholder:8001)
+1. Demo: [http://10.0.0.15:8001](http://10.0.0.15:8001)
 
 
 ______________________________________________________________________
@@ -103,7 +106,9 @@ ______________________________________________________________________
 Our server
 ----------
 
-1. Demo: [http://placeholder:8080](http://placeholder:8080)
+1. Demo
+2. MEAN stack
+3. Modular approach
 
 
 ______________________________________________________________________
@@ -115,7 +120,7 @@ Web sockets & socket.io
 
 1. The problem with HTTP
 2. Ways to solve it
-3. Demo [http://placeholder:8002](http://placeholder:8002)
+3. Demo [http://10.0.0.15:8002](http://10.0.0.15:8002)
 
 ______________________________________________________________________
 
